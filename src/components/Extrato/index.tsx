@@ -1,5 +1,5 @@
 import { Box } from "../../styles/GlobalStyles";
-import updates from "../../json/info.json"
+import updates from "../../json/info.json";
 import { IUpdates } from "../../interfaces/IUpdates";
 import Items from "../Items";
 
