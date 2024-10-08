@@ -2,8 +2,7 @@ import privado from "../../assets/images/privado.svg";
 import olho_icone from "../../assets/images/olho.svg";
 import dinheiro from "../../assets/images/dinheiro.svg";
 import { useState } from "react";
-import { Icone } from "../../styles/GlobalStyles";
-import { Botao, Box, Detalhe, IconeMargin, Saldo } from "./Styles";
+import { Botao, Box, Detalhe, Icone, IconeMargin, Saldo } from "../../styles/GlobalStyles";
 
 
 

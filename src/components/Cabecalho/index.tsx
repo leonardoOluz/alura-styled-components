@@ -6,10 +6,10 @@ const Cabecalho = () => {
     <CabecalhoEstilizado>
       <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
-        <BtnCabecalho primary={false} href="https://google.com">
+        <BtnCabecalho primary={false} href="#">
           Ajuda
         </BtnCabecalho>
-        <BtnCabecalho primary href="https://google.com">
+        <BtnCabecalho primary href="#">
           Sair
         </BtnCabecalho>
       </div>
