@@ -2,10 +2,9 @@ import "styled-components";
 
 declare module "styled-components" {
   export interface DefaultTheme {
-    colors: {
-      corPrimaria: string;
-      fundoClaro: string;
-      textoFundoClaro: string;
-    };
+      body: string;
+      inside: string;
+      text: string;
+      filter: string;
   }
 }

@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { themes } from "../../styles/themes";
+import { colors } from "../../styles/themes";
 
 export const CabecalhoEstilizado = styled.nav`
-  background-color: ${props => props.theme.colors.corPrimaria};
+  background-color: ${colors.corPrimaria};
   display: flex;
   justify-content: space-between;
   padding: 0 15vw;
@@ -23,5 +23,5 @@ export const BtnCabecalho = styled.a<{ primary: boolean }>`
   font-weight: 600;
   border: 2px solid white;
   background: ${(props) => props.primary ? "transparent" : "white"};
-  color: ${(props) => props.primary ? "white" : themes.colors.corPrimaria };
+  color: ${(props) => props.primary ? "white" : colors.corPrimaria };
 `;
