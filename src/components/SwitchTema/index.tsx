@@ -6,14 +6,14 @@ const claro = <Icone src={temaOn} alt="Tema Claro" />
 const escuro = <Icone src={temaOff} alt="Tema Escuro" />
 
 interface PropsSwitchTema {
-    tema: boolean
+  tema: boolean
 }
 const SwitchTema = ({ tema }: PropsSwitchTema) => {
-    return (
-        <>
-            {tema ? escuro : claro}
-        </>
-    )
+  return (
+    <>
+      {tema ? escuro : claro}
+    </>
+  )
 }
 
 export default SwitchTema;
